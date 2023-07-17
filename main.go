@@ -64,7 +64,7 @@ func calculate(n1, n2 int, zn string) int { // осуществление мат
 	return result
 }
 
-func arabrom(x int) string { // Функция переводит результат вычисления функции calculate() из арабской с.с. в римскую с.с.
+func arabrom(x int) string { // перевод на римскую систему
 	arabromone := map[int]string{
 		1:  "I",
 		2:  "II",
